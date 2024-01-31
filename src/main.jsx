@@ -2,6 +2,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { RteCtxt } from './rte';
 import { App } from './App.jsx'
 
 import 'primeflex/primeflex.css'; //SEE: https://primereact.org/calendar/
@@ -16,7 +17,9 @@ import { PrimeReactProvider } from 'primereact/api';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 		<PrimeReactProvider>
-	    <App />
+			<RteCtxt>
+		    <App />
+			</RteCtxt>
 		</PrimeReactProvider>
   </React.StrictMode>,
 )
