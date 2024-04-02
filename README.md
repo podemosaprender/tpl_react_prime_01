@@ -11,7 +11,7 @@ However you'll be learning the same tools we will use for any professional proje
 ## Install
 
 ~~~
-git clone https://github.com:podemosaprender/tpl_react_prime_01.git react_practice_1
+git clone https://github.com/podemosaprender/tpl_react_prime_01.git react_practice_1
 cd react_practice_1
 npm i
 ~~~
